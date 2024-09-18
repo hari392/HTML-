@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CSS position</title>
+        <style>
+            p {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+p.main {
+    position: static;
+    top: 90px;
+    left: 40px;
+    background-color: greenyellow;
+}
+        </style>
+    </head>
+
+    <body>
+        <p>This is a normal paragraph.</p>
+        <p class="main">
+            This paragraph is positioned with a static value of top 50px and
+            left 40px.
+        </p>
+        <p>This is a normal paragraph.</p>
+    </body>
+
+</html>
